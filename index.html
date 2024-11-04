@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coctails</title>
+    <style>
+        .wrapper {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+        }
+  
+        .box {
+          flex: 0 0 400px;
+          height: 150px;
+          background-color: lightgreen;
+          margin: 5px;
+          font-size: xx-large;
+          color: black;
+          box-sizing: border-box;
+        }
+        h2{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h1 {
+          width: 100%;
+          background-color: lightblue;
+          color: black;
+          text-align: center;
+          font-size: xx-large;
+        }
+        .coctail_pic {
+          width: 100px;
+          height: 130px;
+          margin: 4px;
+        }
+        .care {
+          float: right;
+          font-size: large;
+          width: 50%;
+        }
+      </style>
+    <script src="./lib/jquery-3.6.0.js"></script>
+    <script src="coctails.js"></script>
+    <script src="coctails.info.js"></script>
+</head>
+<body>
+    <h1>Here are the best coctails</h1>
+    <div class="wrapper">
+    </div>
+</body>
+</html>
